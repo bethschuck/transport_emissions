@@ -1,0 +1,4 @@
+key,passenger_light,electric_light,diesel_bus,electric_bus,heavy_rail,light_rail,walking,cycling
+values_2018,0.268206158,0.025,1.087,0.108,0,0,0,0
+values_2030_baseline,0.268206158,0.025,1.087,0.108,0,0,0,0
+values_2030_scenario,0.268206158,0.025,1.087,0.108,0,0,0,0

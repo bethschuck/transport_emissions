@@ -1,0 +1,7 @@
+proj_name,peak_freq,off_peak_freq,num_peak_hrs,num_hours,vehicle_capacity,distance,primary_mode
+A2B,5,15,4,20,55,18,diesel_bus
+IsthmusCrosstown,10,15,4,19,55,20,diesel_bus
+NorthwesternLightRail,6,10,4,19,450,30,light_rail
+AirportLightRail,5,10,4,20,450,23,light_rail
+AMETI,5,12,4,19,200,12,diesel_bus
+CRL,2.5,10,4,20,750,3.5,heavy_rail
