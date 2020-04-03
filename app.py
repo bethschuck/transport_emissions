@@ -10,23 +10,6 @@ from pathlib import Path
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # INPUTS
 def data_load():
     '''
@@ -38,9 +21,9 @@ def data_load():
     '''
 
     # Read data from csv into dataframes
-    pt_details = pd.read_csv('data/pt_details.csv', index_col = 0)
-    base_numbers = pd.read_csv('data/base_numbers.csv', index_col = 0) # Has placeholders for emissions info
-    emission_factors = pd.read_csv('data/emission_factors.csv', index_col = 0) # Emission factors have units kg CO2-e/km
+    pt_details = pd.read_csv('pt_details.csv', index_col = 0)
+    base_numbers = pd.read_csv('base_numbers.csv', index_col = 0) # Has placeholders for emissions info
+    emission_factors = pd.read_csv('emission_factors.csv', index_col = 0) # Emission factors have units kg CO2-e/km
 
     base_numbers.loc['emissions_2018'] = emission_factors.loc['values_2018'] * base_numbers.loc['vkt_2018']
     base_numbers.loc['emissions_2030_baseline'] = emission_factors.loc['values_2030_baseline'] * base_numbers.loc['vkt_2030_baseline']
